@@ -12,6 +12,7 @@ This cookbook respository is a collection of guides and examples for working wit
 ## 😎 Featured
 
 - [Token Factory Workshop](workshops/token-factory-workshop/README.md)
+- [Deep Research + Writing Agents Workshop with Nebius and Okahu](workshops/deep-research-writing-agents-nebius-okahu/README.md)
 - [Builder Hour](builder-hour/README.md)
 - [Events](community/events.md) supported by Nebius AI.
 - [Community contributions](community/README.md)
@@ -141,6 +142,7 @@ Post-training allows you to customize and improve pre-trained language models fo
 ## Workshops
 
 - [Token Fastory Workshop](workshops/token-factory-workshop/README.md)
+- [Deep Research + Writing Agents Workshop with Nebius and Okahu](workshops/deep-research-writing-agents-nebius-okahu/README.md)
 
 ---
 
