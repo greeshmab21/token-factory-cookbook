@@ -15,7 +15,7 @@ Jump to:
     - [LangChain](#langchain)
     - [Llama-index](#llama-index)
     - [Pydantic AI](#pydantic-ai)
-    - [Strands Agents](#strands-agents)
+    - [Strands Agent](#strands-agent)
     - [Camel AI](#camel-ai)
 
 ## Agents by Functionality
@@ -67,13 +67,21 @@ Jump to:
 | [Agno websearch agent](agno-agents-examples/)     | Use web search to do research                           | Agno + Duckduckgo                 |
 | [Agno multi agent](agno-agents-examples/)         | Multiple agents working together to do finance research | Agno + Duckduckgo + Yahoo Finance |
 
-### [LangChain](https://www.langchain.com/)
+### LangChain
+
+[Langchain docs](https://docs.langchain.com/)
+
+More  Langchain examples in [langchain](langchain/) folder.
 
 | Agent | Descripton | Tech Stack |
 | ----- | ---------- | ---------- |
-| [Customer Support Resolution Agent](customer_support_resolution_agent/) | Resolve support questions with order lookup, policy RAG, and human ticket escalation | LangChain + Nebius + FAISS + Streamlit |
-| [LangChain Data Agent PoC](langchain_data_agent_poc/) | Ask natural language questions over sample business data with safe SQL and charts | LangChain + LangGraph + Nebius + SQLite + Streamlit |
-| [Nebius Travel Planner](nebius_travel_planner/) | Build grounded itineraries with weather, web research, budgets, currency conversion, and packing prep | LangChain + Nebius + Streamlit |
+| [Customer Support Resolution Agent](langchain/customer_support_resolution_agent/) | Resolve support questions with order lookup, policy RAG, and human ticket escalation | LangChain + Nebius + FAISS + Streamlit |
+| [LangChain Data Agent PoC](langchain/langchain_data_agent_poc/) | Ask natural language questions over sample business data with safe SQL and charts | LangChain + LangGraph + Nebius + SQLite + Streamlit |
+| [Nebius Travel Planner](langchain/nebius_travel_planner/) | Build grounded itineraries with weather, web research, budgets, currency conversion, and packing prep | LangChain + Nebius + Streamlit |
+
+[More examples](langchain/)
+
+---
 
 ### [Llama-index](https://www.llamaindex.ai/)
 
