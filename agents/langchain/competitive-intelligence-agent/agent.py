@@ -10,6 +10,7 @@ by Deep Agents out of the box.
 """
 
 from __future__ import annotations
+import time
 
 from deepagents import SubAgent, create_deep_agent
 from langchain_nebius import ChatNebius
@@ -120,7 +121,7 @@ verdict.
 # Lead-agent system prompt
 # ---------------------------------------------------------------------------
 
-LEAD_SYSTEM_PROMPT = """You are a senior competitive-intelligence analyst.
+LEAD_SYSTEM_PROMPT = f"""It is {time.strftime("%Y-%m-%d")}. You are a senior competitive-intelligence analyst.
 
 The user will name a single TARGET company. Your job is to identify its top
 2-3 competitors and produce a single, decision-grade competitive brief.

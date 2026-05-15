@@ -41,9 +41,19 @@ TAVILY_API_KEY=your-tavily-api-key
 
 ## Run
 
+### CLI
+
 ```bash
 uv run cli.py "Netflix"
 ```
+
+### Streamlit (web UI)
+
+```bash
+uv run streamlit run streamlit_app.py
+```
+
+Opens a browser with a branded activity feed: enter a company in the sidebar, click **Generate Brief**, and watch the agent plan, dispatch sub-agents, and stream results live. The final brief renders as markdown with a download button.
 
 That's it. The agent will:
 
@@ -82,8 +92,9 @@ The brief is structured for action, not entertainment:
 ## Files
 
 ```
-agent.py    # Lead agent + 3 sub-agent specs + the brief-schema prompt
-cli.py      # Typer entry point + Rich live renderer + output handling
+agent.py         # Lead agent + 3 sub-agent specs + the brief-schema prompt
+cli.py           # Typer entry point + Rich live renderer + output handling
+streamlit_app.py # Streamlit web UI with live activity feed + brief viewer
 ```
 
 Two files. The Deep Agents SDK does the heavy lifting — we just compose model, two tools, three sub-agent prompts, and a brief structure.
