@@ -32,7 +32,22 @@ openclaw --configure
 - End point id = **nebius-token-factory**
 - model alias : leave blank
   
+
+### Model Selection
+
+Model IDs use the `org/model` form. A few options:
+
+| Model | ID |
+|-------|----|
+| Kimi-K2.6 | `moonshotai/Kimi-K2.6` |
+| DeepSeek-V4-Pro | `deepseek-ai/DeepSeek-V4-Pro` |
+| GLM-5.1 | `zai-org/GLM-5.1` |
+
+See the full catalog at [tokenfactory.nebius.com](https://tokenfactory.nebius.com/) or the [Models guides](../../models/) in this cookbook.
+
 That's it!
+
+## 3. Restart OpenClaw
 
 Be sure to restart the openclaw gateway for changes to take effect.
 
@@ -52,17 +67,7 @@ openclaw  dashboard
 openclaw  tui
 ```
 
-### Model Selection
 
-Model IDs use the `org/model` form. A few options:
-
-| Model | ID |
-|-------|----|
-| Kimi-K2.6 | `moonshotai/Kimi-K2.6` |
-| DeepSeek-V4-Pro | `deepseek-ai/DeepSeek-V4-Pro` |
-| GLM-5.1 | `zai-org/GLM-5.1` |
-
-See the full catalog at [tokenfactory.nebius.com](https://tokenfactory.nebius.com/) or the [Models guides](../../models/) in this cookbook.
 
 
 ## Troubleshooting
